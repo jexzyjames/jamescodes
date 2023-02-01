@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container" id="top">
+        <div class="wrapper" id="top">
+            <nav id="top">
+                <div class="logo">
+                    <h2>Portfo<b>lio</b></h2>
+                    <img id="image" class="img" src="plus-math.png" alt="">
+                </div>
+                <ul id="ul">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="headerbtn">
+                    <button class="sub">Subscribe</button>
+                </div>
+            </nav>
+        </div>
+
+        <section class="top" id="home">
+            <div class="left">
+                <h2>Hello, my name is </h2>
+                <h1>James <span>Jegede</span></h1>
+                <h4>I' am a Web Developer</h4>
+                <div class="search">
+                    <!-- <input type="text" placeholder="Enter Your Email">  -->
+                    <button> <input type="text" placeholder="Enter Your Email"> <span class="btn">Your
+                            text</span></button>
+                </div>
+            </div>
+
+            <div class="right">
+                <!-- <div class="image">
+                    <img src="IMG_4619.JPG" alt="pics">
+                </div> -->
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="lt" id="lt">
+                <!-- <div class="img" id="image"> -->
+                    <!-- <img src="IMG_4619.JPG" alt=""> -->
+                <!-- </div> -->
+            </div>
+
+
+            <div class="rt" id="rt">
+                <h1>About Me</h1>
+                <h2>Developer <span> & Designer</span></h2>
+                <p contenteditable="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim labore, facere aut laboriosam vitae
+                    pariatur distinctio at quaerat blanditiis laborum praesentium, nisi architecto! Aliquam nostrum
+                    eaque veniam fugiat quia reprehenderit, molestias eos adipisci id ut dignissimos consequuntur
+                    perferendis, facilis labore praesentium nulla reiciendis temporibus dolore iusto sed quasi odit
+                    provident incidunt at. Voluptas recusandae repudiandae dolores perspiciatis, alias at odit quidem
+                    corrupti, iusto velit mollitia ad officiis! Quibusdam, dolor officiis.</p>
+                <button class="sub">Let's talk</button>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h1>Our Services</h1>
+            <div class="block">
+                <div class="lft" id="lft">
+                    <span>&gt;</span>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ullam perferendis itaque qui
+                        laudantium voluptates mollitia voluptas expedita. Provident ratione voluptate eius, qui tempora
+                        molestias quod quasi incidunt sed numquam!</p>
+                    <button class="sub">Read More</button>
+                </div>
+                <div class="center" id="center">
+                    <span>&gt;</span>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ullam perferendis itaque qui
+                        laudantium voluptates mollitia voluptas expedita. Provident ratione voluptate eius, qui tempora
+                        molestias quod quasi incidunt sed numquam!</p>
+                    <button class="sub">Read More</button>
+                </div>
+                <div class="rgt" id="rgt">
+                    <span>&gt;</span>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ullam perferendis itaque qui
+                        laudantium voluptates mollitia voluptas expedita. Provident ratione voluptate eius, qui tempora
+                        molestias quod quasi incidunt sed numquam!</p>
+                    <button class="sub">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="hire" id="contact">
+            <h2>Let Me Get You A Beautiful Website</h2>
+            <button class="sub">Hire Me</button>
+        </section>
+
+        <footer>
+            <h3>James Jegede</h3>
+            <h4>For more HTML, CSS and coding tutuorial, please click on the <br>
+                link below to subscribe to my channel</h4>
+                <a href="#top"><img src="up2.png" alt="Jump to Top"></a>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/791edd581f.js" crossorigin="anonymous"></script>
+    <script>
+        let ul = document.getElementById("ul");
+        let image = document.getElementById("image");
+
+        image.addEventListener("click", () =>{
+ 
+            ul.classList.toggle("show");
+            // if(ul.style.visibility === "hidden" && ul.style.maxHeight === 0){
+            //     ul.style.visibility = "visible" ;
+            //     ul.style.maxHeight = "500px";
+            //     image.style.transform = "rotate(-45deg)";
+
+            // }
+            // else{
+            //     ul.style.visibility = "hidden";
+            //     ul.style.maxHeight = "0px";
+            //     image.style.transform = "rotate(-45deg)";
+
+            // }
+            // ul.style.visibility = "visible";
+        });
+    </script>
+</body>
+
+</html>
+
+
